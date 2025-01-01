@@ -25,17 +25,16 @@ The notebook `cag_demo.ipynb` showcases the core steps of CAG:
 ### Installation
 
 1. Clone this repository:
-"""
+
+```
 git clone https://github.com/yourusername/cache-augmented-generation.git
 cd cache-augmented-generation
-"""
+```
 
 2. Install the required packages:
-"""
+```
 pip install torch transformers
-"""
-
-Follow the prompts to enter your token.
+```
 
 3. Create a `document.txt` file in the project directory, containing the knowledge you want to preload
 
