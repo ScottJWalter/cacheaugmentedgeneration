@@ -55,16 +55,3 @@ To use your own knowledge base:
 
 1. Replace the content of `document.txt` with your desired information.
 2. Adjust the example questions in the notebook to match your knowledge domain.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-- The Mistral model is developed by [Mistral AI](https://www.mistral.ai/).
-- This implementation is based on the paper ["Don't do RAG: When cache-augmented generation is all you need for knowledge tasks"](https://arxiv.org/abs/2412.15605v1) by Chan et al.
-
-## Contact 
-
-For any questions or feedback, please open an issue on this repository.
