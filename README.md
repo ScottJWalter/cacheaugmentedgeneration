@@ -1,4 +1,4 @@
-# Cache-Augmented Generation 
+# Cache-Augmented Generation (CAG)
 
 A demo of Cache-Augmented Generation (CAG) using Mistral-7B. 
 
