@@ -8,6 +8,11 @@ Article: https://medium.com/@ronantech/cache-augmented-generation-cag-in-llms-a-
 
 Google Colab: https://colab.research.google.com/drive/1-0eKIu6cGAZ47ROKQaF6EU-mHtvJBILV?usp=sharing
 
+This project was described as a reliable example of CAG in 2 Reddit threads:
+https://www.reddit.com/r/LangChain/comments/1jh759u/cache_augmented_generation/
+https://www.reddit.com/r/Rag/comments/1i5l2ot/dont_do_rag_its_time_for_cag/
+
+
 ## Overview
 
 The notebook `cag_demo.ipynb` showcases the core steps of CAG:
