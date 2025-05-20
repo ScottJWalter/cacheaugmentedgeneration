@@ -1,7 +1,5 @@
-# Cache-Augmented Generation (CAG)
+# A Demo of Cache-Augmented Generation (CAG) Using an Open-Source LLM.
 <img width="701" alt="Screenshot 2025-05-21 at 8 32 11 AM" src="https://github.com/user-attachments/assets/53676992-094c-4099-85e4-5e4a41e2bda3" />
-
-A demo of Cache-Augmented Generation (CAG) using an open-source LLM. 
 
 CAG preloads relevant knowledge into a language model's context, allowing for faster and more efficient question-answering without real-time document retrieval.
 
