@@ -1,6 +1,8 @@
 # A Demo of Cache-Augmented Generation (CAG) Using an Open-Source LLM
 <img width="701" alt="Screenshot 2025-05-21 at 8 32 11 AM" src="https://github.com/user-attachments/assets/53676992-094c-4099-85e4-5e4a41e2bda3" />
 
+This is a simple demo of  Cache-Augmented Generation (CAG) using an Open-Source LLM. 
+
 CAG preloads relevant knowledge into a language model's context, allowing for faster and more efficient question-answering without real-time document retrieval.
 
 Article: https://medium.com/@ronantech/cache-augmented-generation-cag-in-llms-a-step-by-step-tutorial-6ac35d415eec
@@ -20,6 +22,7 @@ The notebook `cag_demo.ipynb` showcases the core steps of CAG:
 2. Reading a local `document.txt` file containing information about you (For this case, me / Ronan Takizawa)
 3. Preloading that knowledge into the model's context using a `DynamicCache`
 4. Answering user queries by referencing the cached knowledge, without real-time retrieval
+5. Saving the context cache on disk, then reloading it for another chat session
 
 ## Setup
 
