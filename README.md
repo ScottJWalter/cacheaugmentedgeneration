@@ -1,5 +1,5 @@
 # A Demo of Cache-Augmented Generation (CAG) Using an Open-Source LLM
-<img width="701" alt="Screenshot 2025-05-21 at 8 32 11 AM" src="https://github.com/user-attachments/assets/53676992-094c-4099-85e4-5e4a41e2bda3" />
+<img width="350" alt="Screenshot 2025-05-22 at 11 48 00 PM" src="https://github.com/user-attachments/assets/b362af23-1c5a-4945-903d-36035ce138ca" />
 
 This is a simple demo of  Cache-Augmented Generation (CAG) using an Open-Source LLM. 
 
