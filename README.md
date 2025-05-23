@@ -1,9 +1,10 @@
 # A Demo of Cache-Augmented Generation (CAG) Using an Open-Source LLM
 <img width="350" alt="Screenshot 2025-05-22 at 11 48 00 PM" src="https://github.com/user-attachments/assets/b362af23-1c5a-4945-903d-36035ce138ca" />
 
-This is a simple demo of  Cache-Augmented Generation (CAG) using an Open-Source LLM. 
+This is a simple demo of Cache-Augmented Generation (CAG) using an Open-Source LLM. 
 
 CAG preloads relevant knowledge into a language model's context, allowing for faster and more efficient question-answering without real-time document retrieval.
+This project demonstrates a simple implementation of CAG and its 76% token reduction usage compared to RAG. 
 
 Article: https://medium.com/@ronantech/cache-augmented-generation-cag-in-llms-a-step-by-step-tutorial-6ac35d415eec
 
@@ -19,10 +20,9 @@ https://www.reddit.com/r/Rag/comments/1i5l2ot/dont_do_rag_its_time_for_cag/
 The notebook `cag_demo.ipynb` showcases the core steps of CAG:
 
 1. Loading the Mistral model and tokenizer
-2. Reading a local `document.txt` file containing information about you (For this case, me / Ronan Takizawa)
-3. Preloading that knowledge into the model's context using a `DynamicCache`
-4. Answering user queries by referencing the cached knowledge, without real-time retrieval
-5. Saving the context cache on disk, then reloading it for another chat session
+2. Preloading that knowledge into the model's context using a `DynamicCache`
+3. Answering user queries by referencing the cached knowledge, without real-time retrieval
+4. Saving the context cache on disk, then reloading it for another chat session
 
 ## Setup
 
@@ -46,8 +46,6 @@ cd cache-augmented-generation
 ```
 pip install torch transformers
 ```
-
-3. Create a `document.txt` file in the project directory, containing the knowledge you want to preload
 
 ## Usage
 
