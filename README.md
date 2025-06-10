@@ -53,14 +53,4 @@ pip install torch transformers
 
 2. Run the cells in order. The notebook will:
 - Load the Mistral model and tokenizer
-- Read `document.txt` and preload its content into a `DynamicCache` 
 - Ask two example questions about Ronan Takizawa, answering them using the cached knowledge
-
-3. Observe the model's responses, which are generated without real-time document retrieval.
-
-## Customization
-
-To use your own knowledge base:
-
-1. Replace the content of `document.txt` with your desired information.
-2. Adjust the example questions in the notebook to match your knowledge domain.
